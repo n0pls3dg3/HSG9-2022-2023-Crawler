@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 
-START_ID = 5001
-STOP_ID = 5999
+START_ID = 100000
+STOP_ID = 150000
 
-BASE_URL = "https://diemthi.hcm.edu.vn/home/show"
+BASE_URL = "https://tuoitre.vn/diem-thi.htm"
 
 if __name__ == "__main__":
     f= open("output.out", "w+")
